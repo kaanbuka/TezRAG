@@ -1,0 +1,39 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Project data
+chroma_db/
+data/pdfs/*.pdf
+data/pdfs/*.PDF
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / araçlar
+.vscode/
+.idea/
+.claude/
+*.swp
+*.swo
+
+# Streamlit
+.streamlit/secrets.toml
