@@ -2,10 +2,16 @@
 
 [English](README.md) · **Türkçe**
 
-[Python](https://www.python.org/)
-[License: MIT](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.11+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **TezRAG**, Türkçe akademik PDF belgeleri için **tamamen yerelde** çalışan bir **Retrieval-Augmented Generation (RAG)** uygulamasıdır. Belgeler vektör veritabanında tutulur; her soru için ilgili parçalar anlamsal olarak getirilir, ardından **yerel dil modeli** **Türkçe ve kaynaklara dayalı** cevap üretir. Üçüncü taraf LLM API anahtarı **gerektirmez** (çıkarım **Ollama** ile).
+
+---
+
+## Ekran görüntüsü
+
+![TezRAG arayüzü: PDF indeksleme ve kaynaklı Türkçe soru-cevap](docs/tezrag-ui.png)
 
 ---
 
@@ -151,6 +157,8 @@ Tarayıcıdan soru sorun; önce en az bir PDF indekslenmiş olmalıdır. Ollama�
 │   └── rag_pipeline.py    # Pipeline birleştirme
 ├── data/pdfs/             # PDF’ler buraya (*.pdf gitignore)
 ├── chroma_db/             # Yerel vektör deposu (gitignore)
+├── docs/
+│   └── tezrag-ui.png      # README ekran görüntüsü
 ├── requirements.txt
 ├── .env.example
 └── LICENSE

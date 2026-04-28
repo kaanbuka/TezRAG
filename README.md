@@ -9,6 +9,12 @@
 
 ---
 
+## Screenshot
+
+![TezRAG Streamlit UI: PDF indexing, Turkish Q&A with citations](docs/tezrag-ui.png)
+
+---
+
 ## Skills & competencies demonstrated
 
 | Area | What this project implements |
@@ -145,6 +151,8 @@ Override via `.env`; see `.env.example` for template variables.
 │   └── rag_pipeline.py  # Pipeline wiring
 ├── data/pdfs/             # Place PDFs here (*.pdf gitignored)
 ├── chroma_db/             # Local vector store (gitignored)
+├── docs/
+│   └── tezrag-ui.png      # README screenshot
 ├── requirements.txt
 ├── .env.example
 └── LICENSE
